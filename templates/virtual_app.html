@@ -1,0 +1,45 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The IT Crew</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+	<script src="../static/v_app.js"></script>
+</head>
+<body>
+
+    <div class="header-stripe">
+        <h1><a href="/" class="main-link">The IT Crew</a></h1>
+        <h4>est. 2020</h4>
+    </div>
+    <div class="link-bar">
+        <br />
+        <ul>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/crew">The Crew</a></li>
+            <li><a href="/locations">Locations</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+    </div>
+    
+    <div class="spacer">
+        <!-- empty div -->
+    </div>
+
+    <div class="center">
+		<form method="POST">
+            <label for="app_name">Appname: </label>
+            <input type="text" name="app_name" />
+            <input type="submit" />
+        </form>
+		<p>{{app_data}}</p>
+	</div>
+
+    <div class="footer">
+        <p></p>
+        <p></p>
+        <p class="subtitle">The IT Crew</p>
+        <p class="subtitle">CITP 125 Networking</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+﻿@font-face {
+    font-family: "Deftone";
+    src: url("./deftone stylus.ttf")format('truetype')
+}
+
+@font-face {
+    font-family: "Bangers";
+    src: url("./Bangers.ttf")format('truetype')
+}
+
+#exception {
+    color: red;
+}
+
+.main-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-stripe {
+    text-align: center;
+    font-family:Deftone;
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background-color: rgb(197, 237, 234);
+}
+
+.link-bar {
+    font-family: Deftone;
+    position: fixed;
+    top: 125px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.spacer {
+    font-family: Deftone;
+    position: fixed;
+    top: 190px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(197, 237, 234);
+}
+
+.center {
+    text-align: center;
+    font-family: Deftone;
+    position: fixed;
+    top: 270px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.palm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 319px;
+    height: 400px;
+}
+
+.footer {
+    text-align: center;
+    font-family: Deftone;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(197, 237, 234);
+}
+
+.subtitle {
+    font-size:12px;
+}
+
+.content {
+    font-family: Bangers;
+    font-size: 25px;
+}
+
+.align_left {
+	text-align: left;
+	position:relative;
+	left: 200px;
+}
+
+.logo {
+    width: 73px;
+    height: 100px;
+    left: 20px;
+    top:8px;
+    z-index: 1;
+    position: fixed;
+}
+
+.pc_img {
+    position: relative;
+	width: 250px;
+	height: 250px;
+	left: 400px;
+	bottom: 440px;
+	border: 3px solid black;
+	padding: 10px;
+
+}
+
+.py_img {
+    position: relative;
+    width: 250px;
+	height: 250px;
+	left: 120px;
+	bottom: 140px;
+	border: 3px solid black;
+	padding: 10px;
+
+}
+
+.sql_img {
+    position: relative;
+    top: 350px;
+    right: 450px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.uni {
+    border: 3px solid #73AD21;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+#def {
+	font-family:Bangers;
+}
+
+#link-bar li{
+	display: inline;
+}
+#contact {
+}
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    font-size:20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10%;
+    width: auto;
+    margin-right: 0.5%;
+    
+    margin-left: auto;
+}
+
+    li:last-child {
+        margin-right: 0;
+        padding-right: 0;
+    }
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+h1 {
+    font-family: Deftone;
+}
+
+h4 {
+    font-family:Deftone;
+
+}
+
+ol {
+	position: relative;
+    font-family: Bangers;
+    font-size: 24px;
+    text-align: left;
+	left: 200px;
+}
+

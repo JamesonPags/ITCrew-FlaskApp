@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The IT Crew</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+</head>
+<body>
+
+    <div class="header-stripe">
+        <h1><a href="/" class="main-link">The IT Crew</a></h1>
+        <h4>est. 2020</h4>
+    </div>
+
+    <div class="link-bar" id="link-bar">
+	<!--- empty div --->
+    </div>
+    
+    <div class="spacer">
+        <!-- empty div -->
+    </div>
+
+    <div class="center">
+        <p class="content">IT Crew "Secure" File Uploader</p>
+		<form action="/files" method="POST" enctype="multipart/form-data">
+			Select file to upload:
+			<input type="file" name="file">
+			<input type="submit">
+		</form>
+        <p>{{really}}</p>
+        <p>{{py_dir}}</p>
+    </div>
+
+    <div class="footer">
+        <p></p>
+        <p></p>
+        <p class="subtitle">The IT Crew</p>
+        <p class="subtitle">CITP 130 Security</p>
+    </div>
+</body>
+</html>
